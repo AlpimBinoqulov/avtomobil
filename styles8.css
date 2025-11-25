@@ -1,0 +1,54 @@
+font-family: @import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+*{
+    background-color: #f0ebeb;
+}
+body{
+    display: flex;
+    font-family: 'Varela', sans-serif;
+   
+}
+.conteaner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    backdrop-filter: calc(-50%, -50%);
+}
+.box{
+    width: 20em;
+    height: 30em;
+    color: white;
+    border-radius: 10px;
+    
+}
+.sedans{
+    background-color: rgb(233, 206, 56);
+}
+.suvs{
+    background-color: rgb(80, 80, 95);
+}
+.luxury{
+    background-color: rgb(62, 62, 77);
+}
+.img-log{
+    background-color: inherit;
+    margin: 20px;
+}
+.title{
+    background-color: inherit;
+    margin: 35px;
+}
+.txt{
+   background-color: inherit;
+    margin: 35px;
+} 
+.btn{
+    width: 12em;
+    height: 4em;
+    border-radius: 8px;
+    margin: 35px;
+}
